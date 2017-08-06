@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LFNavigationController.h
 //  BuDeJie
 //
 //  Created by 刘丰 on 2017/8/6.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LFNavigationController : UINavigationController
 
 @end
-
