@@ -7,7 +7,9 @@
 //
 
 #import "LFSettingViewController.h"
+#import <SDImageCache.h>
 
+static NSString *identifier = @"cell";
 @interface LFSettingViewController ()
 
 @end
@@ -17,16 +19,35 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:identifier];
+    
+    [self getFileSize];
+}
+
+- (void)getFileSize
+{
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    NSString *filePath = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).firstObject;
+//    NSArray<NSString *> *subpaths =[fileManager subpathsOfDirectoryAtPath:filePath error:nil];
+//    NSLog(@"%@", subpaths);
+    NSDirectoryEnumerator *enumreator = [fileManager enumeratorAtPath:filePath];
+    for (NSString *str in enumreator) {
+        NSLog(@"%@", str);
+    }
+//    NSDictionary<NSFileAttributeKey, id> *attrDic = [fileManager contentsAtPath:filePath ];
+    
 }
 
 #pragma mark - Table view data source
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 0;
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 1;
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 0;
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier forIndexPath:indexPath];
+    cell.textLabel.text = [NSString stringWithFormat:@"%lu", (unsigned long)[SDImageCache sharedImageCache].getSize];
+    return cell;
 }
 
 @end

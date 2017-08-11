@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "LFTabBarController.h"
+#import "LFAdViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +20,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [LFTabBarController new];
+    self.window.rootViewController = [LFAdViewController new];
     [self.window makeKeyAndVisible];
     
     return YES;

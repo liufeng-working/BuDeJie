@@ -7,6 +7,7 @@
 //
 
 #import "LFFriendTrendsViewController.h"
+#import "LFLoginViewController.h"
 
 @interface LFFriendTrendsViewController ()
 
@@ -16,8 +17,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
-    self.view.backgroundColor = [UIColor blueColor];
 
     [self setupNavBar];
 }
@@ -33,5 +32,14 @@
 {
     NSLog(@"点击我的关注");
 }
+
+#pragma mark -
+#pragma mark - 登录
+- (IBAction)gotoLogin:(UIButton *)sender {
+    
+    LFLoginViewController *loginVC = [[LFLoginViewController alloc] init];
+    [self presentViewController:loginVC animated:YES completion:nil];
+}
+
 
 @end

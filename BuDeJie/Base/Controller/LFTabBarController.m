@@ -69,7 +69,8 @@
     friendTrendsNav.tabBarItem = friendTrendsItem;
     
     //我
-    LFMeViewController *meVC = [[LFMeViewController alloc] init];
+    UIStoryboard *meSB = [UIStoryboard storyboardWithName:@"LFMeViewController" bundle:nil];
+    LFMeViewController *meVC = [meSB instantiateInitialViewController];
     UINavigationController *meNav = [[LFNavigationController alloc] initWithRootViewController:meVC];
     UITabBarItem *meItem = [[UITabBarItem alloc] initWithTitle:@"我的" image:[UIImage originalImageNamed:@"tabBar_me_icon"] selectedImage:[UIImage originalImageNamed:@"tabBar_new_click_icon"]];
     meNav.tabBarItem = meItem;

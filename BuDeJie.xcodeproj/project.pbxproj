@@ -7,6 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		033C88E41F39D9980031ED45 /* LFAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C88E31F39D9980031ED45 /* LFAdViewController.m */; };
+		033C88E61F39DBB30031ED45 /* LFAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 033C88E51F39DBB30031ED45 /* LFAdViewController.xib */; };
+		033C88E91F39E9FC0031ED45 /* LFAdItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C88E81F39E9FC0031ED45 /* LFAdItem.m */; };
+		033C88EC1F39F3C00031ED45 /* LFSubTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C88EB1F39F3C00031ED45 /* LFSubTagViewController.m */; };
+		033C88EF1F39F5EE0031ED45 /* LFTagItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C88EE1F39F5EE0031ED45 /* LFTagItem.m */; };
+		033C88F31F39F7770031ED45 /* LFTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C88F11F39F7770031ED45 /* LFTagCell.m */; };
+		033C88F41F39F7770031ED45 /* LFTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 033C88F21F39F7770031ED45 /* LFTagCell.xib */; };
+		033C88FB1F3A050D0031ED45 /* LFNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C88F81F3A050D0031ED45 /* LFNotification.m */; };
+		033C88FC1F3A050D0031ED45 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C88FA1F3A050D0031ED45 /* MBProgressHUD.m */; };
+		03CC6F7E1F3C8CD4002B3DC5 /* LFSquareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CC6F7D1F3C8CD4002B3DC5 /* LFSquareItem.m */; };
+		03CC6F821F3C9B01002B3DC5 /* LFWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CC6F801F3C9B01002B3DC5 /* LFWebViewController.m */; };
+		03CC6F831F3C9B01002B3DC5 /* LFWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03CC6F811F3C9B01002B3DC5 /* LFWebViewController.xib */; };
+		03D5DC411F3B2A2A00E49994 /* LFFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D5DC401F3B2A2A00E49994 /* LFFriendTrendsViewController.xib */; };
+		03D5DC451F3B2CF300E49994 /* LFLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D5DC431F3B2CF300E49994 /* LFLoginViewController.m */; };
+		03D5DC461F3B2CF300E49994 /* LFLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D5DC441F3B2CF300E49994 /* LFLoginViewController.xib */; };
+		03D5DC491F3B317B00E49994 /* LFLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D5DC481F3B317B00E49994 /* LFLoginView.m */; };
+		03D5DC4B1F3B318300E49994 /* LFLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D5DC4A1F3B318300E49994 /* LFLoginView.xib */; };
+		03D5DC4E1F3B3CF000E49994 /* LFFastLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D5DC4D1F3B3CF000E49994 /* LFFastLoginView.m */; };
+		03D5DC501F3B3CFA00E49994 /* LFFastLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D5DC4F1F3B3CFA00E49994 /* LFFastLoginView.xib */; };
+		03D5DC531F3B3FFE00E49994 /* LFFastButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D5DC521F3B3FFE00E49994 /* LFFastButton.m */; };
+		03D5DC561F3B466200E49994 /* LFLoginField.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D5DC551F3B466200E49994 /* LFLoginField.m */; };
+		03D5DC5B1F3B4D5C00E49994 /* UITextField+LFCatefory.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D5DC5A1F3B4D5C00E49994 /* UITextField+LFCatefory.m */; };
+		03D5DC5D1F3B53B200E49994 /* LFMeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D5DC5C1F3B53B200E49994 /* LFMeViewController.storyboard */; };
+		03D5DC611F3B571C00E49994 /* LFSquareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D5DC5F1F3B571C00E49994 /* LFSquareCell.m */; };
+		03D5DC621F3B571C00E49994 /* LFSquareCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D5DC601F3B571C00E49994 /* LFSquareCell.xib */; };
 		03F17BE41F36EB450051B898 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F17BE31F36EB450051B898 /* main.m */; };
 		03F17BEF1F36EB450051B898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F17BEE1F36EB450051B898 /* Assets.xcassets */; };
 		03F17BF21F36EB450051B898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F17BF01F36EB450051B898 /* LaunchScreen.storyboard */; };
@@ -22,9 +47,51 @@
 		03F17C391F374A210051B898 /* UIBarButtonItem+LFCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F17C381F374A210051B898 /* UIBarButtonItem+LFCategory.m */; };
 		03F17C3C1F37524E0051B898 /* LFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F17C3B1F37524E0051B898 /* LFNavigationController.m */; };
 		03F17C421F3754D70051B898 /* LFSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F17C411F3754D70051B898 /* LFSettingViewController.m */; };
+		D8A07E8E7E4906888EB4B6C2 /* libPods-BuDeJie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 585568C4F64C7ECD5C0C34CB /* libPods-BuDeJie.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		033C88E21F39D9980031ED45 /* LFAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFAdViewController.h; sourceTree = "<group>"; };
+		033C88E31F39D9980031ED45 /* LFAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFAdViewController.m; sourceTree = "<group>"; };
+		033C88E51F39DBB30031ED45 /* LFAdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFAdViewController.xib; sourceTree = "<group>"; };
+		033C88E71F39E9FC0031ED45 /* LFAdItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFAdItem.h; sourceTree = "<group>"; };
+		033C88E81F39E9FC0031ED45 /* LFAdItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFAdItem.m; sourceTree = "<group>"; };
+		033C88EA1F39F3C00031ED45 /* LFSubTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFSubTagViewController.h; sourceTree = "<group>"; };
+		033C88EB1F39F3C00031ED45 /* LFSubTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFSubTagViewController.m; sourceTree = "<group>"; };
+		033C88ED1F39F5EE0031ED45 /* LFTagItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFTagItem.h; sourceTree = "<group>"; };
+		033C88EE1F39F5EE0031ED45 /* LFTagItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFTagItem.m; sourceTree = "<group>"; };
+		033C88F01F39F7770031ED45 /* LFTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFTagCell.h; sourceTree = "<group>"; };
+		033C88F11F39F7770031ED45 /* LFTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFTagCell.m; sourceTree = "<group>"; };
+		033C88F21F39F7770031ED45 /* LFTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFTagCell.xib; sourceTree = "<group>"; };
+		033C88F71F3A050D0031ED45 /* LFNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFNotification.h; sourceTree = "<group>"; };
+		033C88F81F3A050D0031ED45 /* LFNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFNotification.m; sourceTree = "<group>"; };
+		033C88F91F3A050D0031ED45 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		033C88FA1F3A050D0031ED45 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		03CC6F7C1F3C8CD4002B3DC5 /* LFSquareItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFSquareItem.h; sourceTree = "<group>"; };
+		03CC6F7D1F3C8CD4002B3DC5 /* LFSquareItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFSquareItem.m; sourceTree = "<group>"; };
+		03CC6F7F1F3C9B01002B3DC5 /* LFWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFWebViewController.h; sourceTree = "<group>"; };
+		03CC6F801F3C9B01002B3DC5 /* LFWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFWebViewController.m; sourceTree = "<group>"; };
+		03CC6F811F3C9B01002B3DC5 /* LFWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFWebViewController.xib; sourceTree = "<group>"; };
+		03D5DC401F3B2A2A00E49994 /* LFFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFFriendTrendsViewController.xib; sourceTree = "<group>"; };
+		03D5DC421F3B2CF300E49994 /* LFLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFLoginViewController.h; sourceTree = "<group>"; };
+		03D5DC431F3B2CF300E49994 /* LFLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFLoginViewController.m; sourceTree = "<group>"; };
+		03D5DC441F3B2CF300E49994 /* LFLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFLoginViewController.xib; sourceTree = "<group>"; };
+		03D5DC471F3B317B00E49994 /* LFLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFLoginView.h; sourceTree = "<group>"; };
+		03D5DC481F3B317B00E49994 /* LFLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFLoginView.m; sourceTree = "<group>"; };
+		03D5DC4A1F3B318300E49994 /* LFLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFLoginView.xib; sourceTree = "<group>"; };
+		03D5DC4C1F3B3CF000E49994 /* LFFastLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFFastLoginView.h; sourceTree = "<group>"; };
+		03D5DC4D1F3B3CF000E49994 /* LFFastLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFFastLoginView.m; sourceTree = "<group>"; };
+		03D5DC4F1F3B3CFA00E49994 /* LFFastLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFFastLoginView.xib; sourceTree = "<group>"; };
+		03D5DC511F3B3FFE00E49994 /* LFFastButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFFastButton.h; sourceTree = "<group>"; };
+		03D5DC521F3B3FFE00E49994 /* LFFastButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFFastButton.m; sourceTree = "<group>"; };
+		03D5DC541F3B466200E49994 /* LFLoginField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFLoginField.h; sourceTree = "<group>"; };
+		03D5DC551F3B466200E49994 /* LFLoginField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFLoginField.m; sourceTree = "<group>"; };
+		03D5DC591F3B4D5C00E49994 /* UITextField+LFCatefory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+LFCatefory.h"; sourceTree = "<group>"; };
+		03D5DC5A1F3B4D5C00E49994 /* UITextField+LFCatefory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LFCatefory.m"; sourceTree = "<group>"; };
+		03D5DC5C1F3B53B200E49994 /* LFMeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LFMeViewController.storyboard; sourceTree = "<group>"; };
+		03D5DC5E1F3B571C00E49994 /* LFSquareCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFSquareCell.h; sourceTree = "<group>"; };
+		03D5DC5F1F3B571C00E49994 /* LFSquareCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFSquareCell.m; sourceTree = "<group>"; };
+		03D5DC601F3B571C00E49994 /* LFSquareCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFSquareCell.xib; sourceTree = "<group>"; };
 		03F17BDF1F36EB450051B898 /* BuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F17BE31F36EB450051B898 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03F17BEE1F36EB450051B898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +122,9 @@
 		03F17C3B1F37524E0051B898 /* LFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFNavigationController.m; sourceTree = "<group>"; };
 		03F17C401F3754D70051B898 /* LFSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFSettingViewController.h; sourceTree = "<group>"; };
 		03F17C411F3754D70051B898 /* LFSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFSettingViewController.m; sourceTree = "<group>"; };
+		585568C4F64C7ECD5C0C34CB /* libPods-BuDeJie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuDeJie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0FB4C6BC104672F51CABA0D /* Pods-BuDeJie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuDeJie/Pods-BuDeJie.debug.xcconfig"; sourceTree = "<group>"; };
+		E42F410D7C108313450E8CE7 /* Pods-BuDeJie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJie.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuDeJie/Pods-BuDeJie.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,17 +132,75 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8A07E8E7E4906888EB4B6C2 /* libPods-BuDeJie.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		033C88DE1F39D9870031ED45 /* Ad */ = {
+			isa = PBXGroup;
+			children = (
+				033C88DF1F39D9870031ED45 /* Controller */,
+				033C88E01F39D9870031ED45 /* Model */,
+				033C88E11F39D9870031ED45 /* View */,
+			);
+			path = Ad;
+			sourceTree = "<group>";
+		};
+		033C88DF1F39D9870031ED45 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				033C88E21F39D9980031ED45 /* LFAdViewController.h */,
+				033C88E31F39D9980031ED45 /* LFAdViewController.m */,
+				033C88E51F39DBB30031ED45 /* LFAdViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		033C88E01F39D9870031ED45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				033C88E71F39E9FC0031ED45 /* LFAdItem.h */,
+				033C88E81F39E9FC0031ED45 /* LFAdItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		033C88E11F39D9870031ED45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		033C88F51F3A05050031ED45 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				033C88F61F3A050D0031ED45 /* LFNotification */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		033C88F61F3A050D0031ED45 /* LFNotification */ = {
+			isa = PBXGroup;
+			children = (
+				033C88F71F3A050D0031ED45 /* LFNotification.h */,
+				033C88F81F3A050D0031ED45 /* LFNotification.m */,
+				033C88F91F3A050D0031ED45 /* MBProgressHUD.h */,
+				033C88FA1F3A050D0031ED45 /* MBProgressHUD.m */,
+			);
+			path = LFNotification;
+			sourceTree = "<group>";
+		};
 		03F17BD61F36EB450051B898 = {
 			isa = PBXGroup;
 			children = (
 				03F17BE11F36EB450051B898 /* BuDeJie */,
 				03F17BE01F36EB450051B898 /* Products */,
+				94AEA55F17D4CDBD6C3DE12B /* Pods */,
+				30DEA19593E97F2E96CFCA99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +220,7 @@
 				03F17BFD1F36F9230051B898 /* Clsasses */,
 				03F17C281F3701B10051B898 /* Base */,
 				03F17C2F1F3703890051B898 /* Category */,
+				033C88F51F3A05050031ED45 /* Tools */,
 				03F17BE21F36EB450051B898 /* Supporting Files */,
 			);
 			path = BuDeJie;
@@ -120,6 +249,7 @@
 		03F17BFD1F36F9230051B898 /* Clsasses */ = {
 			isa = PBXGroup;
 			children = (
+				033C88DE1F39D9870031ED45 /* Ad */,
 				03F17BFE1F36F9230051B898 /* Essence */,
 				03F17C0A1F36F9230051B898 /* New */,
 				03F17C211F36FAE00051B898 /* FriendTrends */,
@@ -177,6 +307,7 @@
 			children = (
 				03F17C181F36F96A0051B898 /* LFMeViewController.h */,
 				03F17C191F36F96A0051B898 /* LFMeViewController.m */,
+				03D5DC5C1F3B53B200E49994 /* LFMeViewController.storyboard */,
 				03F17C401F3754D70051B898 /* LFSettingViewController.h */,
 				03F17C411F3754D70051B898 /* LFSettingViewController.m */,
 			);
@@ -186,6 +317,8 @@
 		03F17C081F36F9230051B898 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				03CC6F7C1F3C8CD4002B3DC5 /* LFSquareItem.h */,
+				03CC6F7D1F3C8CD4002B3DC5 /* LFSquareItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -193,6 +326,9 @@
 		03F17C091F36F9230051B898 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				03D5DC5E1F3B571C00E49994 /* LFSquareCell.h */,
+				03D5DC5F1F3B571C00E49994 /* LFSquareCell.m */,
+				03D5DC601F3B571C00E49994 /* LFSquareCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -212,6 +348,8 @@
 			children = (
 				03F17C151F36F9580051B898 /* LFNewViewController.h */,
 				03F17C161F36F9580051B898 /* LFNewViewController.m */,
+				033C88EA1F39F3C00031ED45 /* LFSubTagViewController.h */,
+				033C88EB1F39F3C00031ED45 /* LFSubTagViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -219,6 +357,8 @@
 		03F17C0C1F36F9230051B898 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				033C88ED1F39F5EE0031ED45 /* LFTagItem.h */,
+				033C88EE1F39F5EE0031ED45 /* LFTagItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -226,6 +366,9 @@
 		03F17C0D1F36F9230051B898 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				033C88F01F39F7770031ED45 /* LFTagCell.h */,
+				033C88F11F39F7770031ED45 /* LFTagCell.m */,
+				033C88F21F39F7770031ED45 /* LFTagCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -278,6 +421,10 @@
 			children = (
 				03F17C251F36FAEC0051B898 /* LFFriendTrendsViewController.h */,
 				03F17C261F36FAEC0051B898 /* LFFriendTrendsViewController.m */,
+				03D5DC401F3B2A2A00E49994 /* LFFriendTrendsViewController.xib */,
+				03D5DC421F3B2CF300E49994 /* LFLoginViewController.h */,
+				03D5DC431F3B2CF300E49994 /* LFLoginViewController.m */,
+				03D5DC441F3B2CF300E49994 /* LFLoginViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -292,6 +439,16 @@
 		03F17C241F36FAE00051B898 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				03D5DC471F3B317B00E49994 /* LFLoginView.h */,
+				03D5DC481F3B317B00E49994 /* LFLoginView.m */,
+				03D5DC4A1F3B318300E49994 /* LFLoginView.xib */,
+				03D5DC4C1F3B3CF000E49994 /* LFFastLoginView.h */,
+				03D5DC4D1F3B3CF000E49994 /* LFFastLoginView.m */,
+				03D5DC4F1F3B3CFA00E49994 /* LFFastLoginView.xib */,
+				03D5DC511F3B3FFE00E49994 /* LFFastButton.h */,
+				03D5DC521F3B3FFE00E49994 /* LFFastButton.m */,
+				03D5DC541F3B466200E49994 /* LFLoginField.h */,
+				03D5DC551F3B466200E49994 /* LFLoginField.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -313,6 +470,9 @@
 				03F17C2D1F3701E00051B898 /* LFTabBarController.m */,
 				03F17C3A1F37524E0051B898 /* LFNavigationController.h */,
 				03F17C3B1F37524E0051B898 /* LFNavigationController.m */,
+				03CC6F7F1F3C9B01002B3DC5 /* LFWebViewController.h */,
+				03CC6F801F3C9B01002B3DC5 /* LFWebViewController.m */,
+				03CC6F811F3C9B01002B3DC5 /* LFWebViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -340,8 +500,27 @@
 				03F17C311F3703A30051B898 /* UIImage+LFCategory.m */,
 				03F17C371F374A210051B898 /* UIBarButtonItem+LFCategory.h */,
 				03F17C381F374A210051B898 /* UIBarButtonItem+LFCategory.m */,
+				03D5DC591F3B4D5C00E49994 /* UITextField+LFCatefory.h */,
+				03D5DC5A1F3B4D5C00E49994 /* UITextField+LFCatefory.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		30DEA19593E97F2E96CFCA99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				585568C4F64C7ECD5C0C34CB /* libPods-BuDeJie.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94AEA55F17D4CDBD6C3DE12B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0FB4C6BC104672F51CABA0D /* Pods-BuDeJie.debug.xcconfig */,
+				E42F410D7C108313450E8CE7 /* Pods-BuDeJie.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,9 +530,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03F17BF61F36EB450051B898 /* Build configuration list for PBXNativeTarget "BuDeJie" */;
 			buildPhases = (
+				30678EBA3936A47AA74E273F /* [CP] Check Pods Manifest.lock */,
 				03F17BDB1F36EB450051B898 /* Sources */,
 				03F17BDC1F36EB450051B898 /* Frameworks */,
 				03F17BDD1F36EB450051B898 /* Resources */,
+				7BEF534EF80CCBFE028C41FF /* [CP] Embed Pods Frameworks */,
+				40380294A576E37F2A05FA66 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -404,31 +586,107 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03CC6F831F3C9B01002B3DC5 /* LFWebViewController.xib in Resources */,
+				03D5DC501F3B3CFA00E49994 /* LFFastLoginView.xib in Resources */,
+				03D5DC4B1F3B318300E49994 /* LFLoginView.xib in Resources */,
+				03D5DC621F3B571C00E49994 /* LFSquareCell.xib in Resources */,
+				03D5DC461F3B2CF300E49994 /* LFLoginViewController.xib in Resources */,
+				033C88F41F39F7770031ED45 /* LFTagCell.xib in Resources */,
 				03F17BF21F36EB450051B898 /* LaunchScreen.storyboard in Resources */,
+				03D5DC5D1F3B53B200E49994 /* LFMeViewController.storyboard in Resources */,
 				03F17BEF1F36EB450051B898 /* Assets.xcassets in Resources */,
+				03D5DC411F3B2A2A00E49994 /* LFFriendTrendsViewController.xib in Resources */,
+				033C88E61F39DBB30031ED45 /* LFAdViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30678EBA3936A47AA74E273F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuDeJie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40380294A576E37F2A05FA66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuDeJie/Pods-BuDeJie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BEF534EF80CCBFE028C41FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuDeJie/Pods-BuDeJie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		03F17BDB1F36EB450051B898 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03D5DC491F3B317B00E49994 /* LFLoginView.m in Sources */,
+				033C88FB1F3A050D0031ED45 /* LFNotification.m in Sources */,
 				03F17C321F3703A30051B898 /* UIImage+LFCategory.m in Sources */,
 				03F17BFC1F36F9110051B898 /* AppDelegate.m in Sources */,
+				03CC6F821F3C9B01002B3DC5 /* LFWebViewController.m in Sources */,
+				033C88F31F39F7770031ED45 /* LFTagCell.m in Sources */,
 				03F17C2E1F3701E00051B898 /* LFTabBarController.m in Sources */,
+				03D5DC5B1F3B4D5C00E49994 /* UITextField+LFCatefory.m in Sources */,
 				03F17C361F373BAD0051B898 /* LFTabBar.m in Sources */,
 				03F17BE41F36EB450051B898 /* main.m in Sources */,
+				033C88FC1F3A050D0031ED45 /* MBProgressHUD.m in Sources */,
+				03D5DC4E1F3B3CF000E49994 /* LFFastLoginView.m in Sources */,
 				03F17C141F36F9470051B898 /* LFEssenceViewController.m in Sources */,
 				03F17C171F36F9580051B898 /* LFNewViewController.m in Sources */,
 				03F17C271F36FAEC0051B898 /* LFFriendTrendsViewController.m in Sources */,
+				03D5DC531F3B3FFE00E49994 /* LFFastButton.m in Sources */,
 				03F17C421F3754D70051B898 /* LFSettingViewController.m in Sources */,
 				03F17C1D1F36F97C0051B898 /* LFPublishViewController.m in Sources */,
+				033C88EC1F39F3C00031ED45 /* LFSubTagViewController.m in Sources */,
+				03D5DC561F3B466200E49994 /* LFLoginField.m in Sources */,
+				03D5DC451F3B2CF300E49994 /* LFLoginViewController.m in Sources */,
 				03F17C3C1F37524E0051B898 /* LFNavigationController.m in Sources */,
 				03F17C1A1F36F96A0051B898 /* LFMeViewController.m in Sources */,
 				03F17C391F374A210051B898 /* UIBarButtonItem+LFCategory.m in Sources */,
+				033C88EF1F39F5EE0031ED45 /* LFTagItem.m in Sources */,
+				03D5DC611F3B571C00E49994 /* LFSquareCell.m in Sources */,
+				033C88E41F39D9980031ED45 /* LFAdViewController.m in Sources */,
+				033C88E91F39E9FC0031ED45 /* LFAdItem.m in Sources */,
+				03CC6F7E1F3C8CD4002B3DC5 /* LFSquareItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,12 +796,13 @@
 		};
 		03F17BF71F36EB450051B898 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0FB4C6BC104672F51CABA0D /* Pods-BuDeJie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QDT8L8LPPU;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/BuDeJie/PrefixHeader.pch";
 				INFOPLIST_FILE = BuDeJie/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaituo.BuDeJie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -552,12 +811,13 @@
 		};
 		03F17BF81F36EB450051B898 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E42F410D7C108313450E8CE7 /* Pods-BuDeJie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QDT8L8LPPU;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/BuDeJie/PrefixHeader.pch";
 				INFOPLIST_FILE = BuDeJie/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaituo.BuDeJie;
 				PRODUCT_NAME = "$(TARGET_NAME)";

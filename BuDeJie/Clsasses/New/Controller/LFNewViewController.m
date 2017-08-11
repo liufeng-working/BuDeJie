@@ -7,6 +7,7 @@
 //
 
 #import "LFNewViewController.h"
+#import "LFSubTagViewController.h"
 
 @interface LFNewViewController ()
 
@@ -33,7 +34,8 @@
 
 - (void)tagClick
 {
-    NSLog(@"点击tag");
+    LFSubTagViewController *tagVC = [[LFSubTagViewController alloc] init];
+    [self.navigationController pushViewController:tagVC animated:YES];
 }
 
 @end
