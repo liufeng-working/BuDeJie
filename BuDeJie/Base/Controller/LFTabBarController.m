@@ -7,7 +7,6 @@
 //
 
 #import "LFTabBarController.h"
-#import "LFTabBar.h"
 #import "LFNavigationController.h"
 #import "LFEssenceViewController.h"
 #import "LFNewViewController.h"
@@ -32,7 +31,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
     [self changeTabBar];
     [self addChildViewController];
 }

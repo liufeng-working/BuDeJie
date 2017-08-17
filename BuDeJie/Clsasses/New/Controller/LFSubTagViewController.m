@@ -10,6 +10,7 @@
 #import "LFTagItem.h"
 #import "LFTagCell.h"
 
+static NSString *const lf_LFTagCell = @"LFTagCell";
 @interface LFSubTagViewController ()
 
 @property(nonatomic,strong) NSMutableArray<LFTagItem *> *tags;
@@ -29,7 +30,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.tableView registerNib:[UINib nibWithNibName:@"LFTagCell" bundle:nil] forCellReuseIdentifier:@"LFTagCell"];
+    [self.tableView registerNib:[UINib nibWithNibName:@"LFTagCell" bundle:nil] forCellReuseIdentifier:lf_LFTagCell];
     
     [self loadData];
     
@@ -46,7 +47,7 @@
     param[@"c"] = @"topic";
     
     [LFNotification manuallyHideIndicatorWithText:@"加载中..."];
-    [manager GET:@"http://api.budejie.com/api/api_open.php" parameters:param progress:nil success:^(NSURLSessionDataTask * _Nonnull task, NSArray *_Nullable responseObject) {
+    [manager GET:lfBaseUrl parameters:param progress:nil success:^(NSURLSessionDataTask * _Nonnull task, NSArray *_Nullable responseObject) {
         [LFNotification hideNotification];
         self.tags = [LFTagItem mj_objectArrayWithKeyValuesArray:responseObject];
         [self.tableView reloadData];
@@ -62,7 +63,7 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    LFTagCell *cell = [tableView dequeueReusableCellWithIdentifier:@"LFTagCell"];
+    LFTagCell *cell = [tableView dequeueReusableCellWithIdentifier:lf_LFTagCell];
     cell.tagItem = self.tags[indexPath.row];
     return cell;
 }

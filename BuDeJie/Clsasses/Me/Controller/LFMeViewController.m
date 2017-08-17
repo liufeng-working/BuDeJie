@@ -13,7 +13,7 @@
 #import <SafariServices/SafariServices.h>
 #import "LFWebViewController.h"
 
-static NSString *const identifier = @"LFTempCell";
+static NSString *const lf_LFSquareCell = @"LFSquareCell";
 static CGFloat const cols = 4;
 static CGFloat const margin = 1;
 #define itemWH ((kWidth - (cols - 1)*margin)/cols)
@@ -69,7 +69,7 @@ static CGFloat const margin = 1;
     self.tableView.tableFooterView = collectionView;
     self.collectionView = collectionView;
     
-    [collectionView registerNib:[UINib nibWithNibName:@"LFSquareCell" bundle:nil] forCellWithReuseIdentifier:identifier];
+    [collectionView registerNib:[UINib nibWithNibName:@"LFSquareCell" bundle:nil] forCellWithReuseIdentifier:lf_LFSquareCell];
 }
 
 - (void)loadData
@@ -78,7 +78,7 @@ static CGFloat const margin = 1;
     NSMutableDictionary *param = [NSMutableDictionary dictionary];
     param[@"a"] = @"square";
     param[@"c"] = @"topic";
-    [manager GET:@"http://api.budejie.com/api/api_open.php" parameters:param progress:nil success:^(NSURLSessionDataTask * _Nonnull task, NSDictionary *_Nullable responseObject) {
+    [manager GET:lfBaseUrl parameters:param progress:nil success:^(NSURLSessionDataTask * _Nonnull task, NSDictionary *_Nullable responseObject) {
         
         NSArray *tempArr = responseObject[@"square_list"];
         self.squares = [LFSquareItem mj_objectArrayWithKeyValuesArray:tempArr];
@@ -115,7 +115,7 @@ static CGFloat const margin = 1;
     return self.squares.count;
 }
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    LFSquareCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:identifier forIndexPath:indexPath];
+    LFSquareCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:lf_LFSquareCell forIndexPath:indexPath];
     cell.backgroundColor = [UIColor whiteColor];
     cell.squareItem = self.squares[indexPath.item];
     return cell;

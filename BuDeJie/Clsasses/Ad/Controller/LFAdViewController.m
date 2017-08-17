@@ -95,7 +95,9 @@
         [self.timer invalidate];
         self.timer = nil;
     }
-    [UIApplication sharedApplication].keyWindow.rootViewController = [LFTabBarController new];
+    
+    LFTabBarController *tabbarVC = [LFTabBarController new];
+    [UIApplication sharedApplication].keyWindow.rootViewController = tabbarVC;
 }
 
 @end

@@ -28,7 +28,6 @@
     UIPanGestureRecognizer *interactivePan = [[UIPanGestureRecognizer alloc] initWithTarget:self.interactivePopGestureRecognizer.delegate action:NSSelectorFromString(@"handleNavigationTransition:")];
     interactivePan.delegate = self;
     [self.view addGestureRecognizer:interactivePan];
-    
 }
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {

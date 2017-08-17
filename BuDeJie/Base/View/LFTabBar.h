@@ -11,3 +11,5 @@
 @interface LFTabBar : UITabBar
 
 @end
+
+UIKIT_EXTERN NSString *const LFTabBarButtonDidRepeatClickNotification;

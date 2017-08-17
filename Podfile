@@ -9,5 +9,7 @@ target 'BuDeJie' do
   pod 'AFNetworking', '~> 3.1.0'
   pod 'MJExtension', '~> 3.0.13'
   pod 'SDWebImage', '~> 4.0.0'
+  pod 'SDWebImage/GIF', '~> 4.0.0'
+  pod 'MJRefresh', '~> 3.1.12'
 
 end

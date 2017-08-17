@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LFSeePhotoViewController">
+            <connections>
+                <outlet property="saveBtn" destination="OFz-RF-2BL" id="9Ne-ND-VaH"/>
+                <outlet property="scrollView" destination="ioL-ZQ-QHc" id="kBN-Z4-jr7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="ZkX-TX-ap4"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="3" translatesAutoresizingMaskIntoConstraints="NO" id="ioL-ZQ-QHc">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="Oqt-9X-yHN"/>
+                    </connections>
+                </scrollView>
+                <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OFz-RF-2BL">
+                    <rect key="frame" x="314" y="607" width="31" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="保存">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="save:" destination="-1" eventType="touchUpInside" id="0v8-Xo-TTx"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wie-dE-xNw">
+                    <rect key="frame" x="30" y="30" width="35" height="35"/>
+                    <state key="normal" image="show_image_back_icon"/>
+                    <connections>
+                        <action selector="back:" destination="-1" eventType="touchUpInside" id="kog-Oi-E8u"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="OFz-RF-2BL" secondAttribute="bottom" constant="30" id="8aH-ek-jTR"/>
+                <constraint firstAttribute="bottom" secondItem="ioL-ZQ-QHc" secondAttribute="bottom" id="9ul-9o-UTb"/>
+                <constraint firstItem="Wie-dE-xNw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="RIh-rg-7YO"/>
+                <constraint firstAttribute="trailing" secondItem="OFz-RF-2BL" secondAttribute="trailing" constant="30" id="Whg-qv-hNp"/>
+                <constraint firstAttribute="trailing" secondItem="ioL-ZQ-QHc" secondAttribute="trailing" id="a33-l3-eBA"/>
+                <constraint firstItem="ioL-ZQ-QHc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="pEx-VP-eSL"/>
+                <constraint firstItem="ioL-ZQ-QHc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="pc3-km-FcO"/>
+                <constraint firstItem="Wie-dE-xNw" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="xzm-TA-neq"/>
+            </constraints>
+            <point key="canvasLocation" x="37" y="-263"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="show_image_back_icon" width="35" height="35"/>
+    </resources>
+</document>
